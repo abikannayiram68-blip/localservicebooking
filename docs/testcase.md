@@ -78,6 +78,11 @@
     3. After complted the reset correctly they can access their already registered account.
 
 
+Example:
+    Email ID: user@gmail.com
+    Password: user123.
+
+
 ## Actual Output:
 
 
@@ -89,9 +94,8 @@ pass/fail
 
 
 
-
-## TC04 :
 #### Service Management
+## TC01:
 ### Features: Admin usage
 
 ## Steps:
@@ -104,5 +108,84 @@ pass/fail
 ## Expected output:
     1. Admin can enter a email and password open their dashboard securely.
     2. view the page side bar like Manage services, Manage providers, View all booking.
-    3. They can add 
+    3. They can add more services. add their service provider, update user status
+    4. Admin can successfully created a services  show api as 201 status ok
+
+## Actual output:
+
  
+
+ ## Status:
+
+
+ ## TC02:
+
+ ## Features: Non admin role
+
+
+ ## steps:
+    1. Verify non-admin role cannot create a service.
+   
+##  Expected output:
+    1. if they are create show 401 unautherized.
+    2. they user only add the services, cancelled their services. 
+    3. they see past history.
+    4. they not add price in negative value (price: -120)
+    5. error showed by 400 bad requests.
+
+
+## Actual output:
+
+## Status:
+
+## BOOKING SYSTEM MODULE
+## TC 01
+
+##  Features:  Creating and managing bookings.
+
+
+## Steps:
+    1. Verify booking creation is valid future date.
+    2. Once user booking correctly their status update pending 201 status ok
+
+
+## Expected output:
+    1. verification is done. the user status change to confirmed.
+
+
+
+## Actual output:
+
+
+## Status:
+
+## TC 02:
+## Features: User can cancell their booking before completed.
+
+## Steps:
+    1. user can cancel their own booking
+    2. if already created the booking. it current status is pending or confirmed they can canceled.
+    3. But once the services is completed they can't change their status.
+
+## expeted output:
+    1. they can cancel their own booking 
+    2. {status: cancelled}
+    3. 200 ok .
+
+## Actual output:
+
+
+## status
+
+
+
+## TC03:
+
+## Features : Verify mybooking
+
+## Steps:
+    
+
+
+
+
