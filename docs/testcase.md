@@ -1,4 +1,5 @@
 #### TEST CASES  ####
+######       AUTHENTICATION       #####
 # TC 01:
 ### Features: REGISTERATION
 ## Steps:
@@ -58,6 +59,37 @@
 
 
 
+# TC04:
+### Features  Reset password:
+## Steps:
+    1. The regitered user want to reset their password or forgot their password.
+    2. They can modify it.
+    3. the registered user can access their email inbox.
+    4. So, they click the forgot password
+    5. Enter email address perfectly. they are get the one inbox message the system give e one time password(OTP).
+    6. They enter the OTP correctly. After verification is completed they can enter the new password.
+    7. At the same time enter the confirmed password.
+
+
+
+## Expected output:
+    1. IF enter correct email they received email OTP
+    2. If enter correct OTP they can reset password.
+    3. After complted the reset correctly they can access their already registered account.
+
+
+## Actual Output:
+
+
+
+## Status:
+
+
+pass/fail
+
+
+
+
 ## TC04 :
 #### Service Management
 ### Features: Admin usage
@@ -66,4 +98,11 @@
     1. go to dashboard.
     2. show side bars like manage provider, manage services, view all bookings
     3. Admin can manage the service provider and add extra service provider service details, manage the user bookings, view user details, and allocate the service provider for this user.
+    4. Also admin can manage the user status like pending, confirmed, completed, cancelled.
+
+
+## Expected output:
+    1. Admin can enter a email and password open their dashboard securely.
+    2. view the page side bar like Manage services, Manage providers, View all booking.
+    3. They can add 
  
