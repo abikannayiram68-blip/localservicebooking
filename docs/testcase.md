@@ -184,8 +184,116 @@ pass/fail
 ## Features : Verify mybooking
 
 ## Steps:
+    1. Log into a brand new user account and open /my-bookings.
     
+## Expected output:
+      Screen safely displays fallback UI message: "No bookings found
 
+## Actual output:
+
+
+## Status:
+
+
+###  SERVICE PROVIDER MODULE  ###
+
+
+## TC 01:
+## Features: Provider adminstration
+
+## Steps:
+    1. Admin can add new service provider.
+    2. Input: { "name": "Alex Electrician", "phone_number": "1234567890", "skill_type": "Electrician" }
+    3. I click the add provider.
+
+## Expected output:
+    1. 201 status ok 
+    2. created successfully.
+
+## Actual output:
+
+## Status:
+
+
+## TC02:
+
+## Features: verify validation
+
+## Steps:
+    1. The service provider not give invalid mobile no like {Mobile no: abc--xyz123}
+    2. The mobile number strictly give as a int type.
+
+## Expected output:
+    1. If service provider give a invalid number as a 400 bad request show the system screen.
+
+
+## Actual output:
+
+
+## Status:
+
+
+####   DASHBOARD AND MIGRATION
+
+## TC01:
+## Features: User dashboard
+## steps:
+    1. once login the already registered user they see own personal history
+    2. they already add a services, cancelled services, confirmed and completed services and now pending services.
+    3. they see our own history.
+
+
+
+## TC02:
+## Features: Admin dashboard 
+
+## Steps:
+    1. Open admin dashboard panel.
+    2. Statistics accurately sum total global users, entire system bookings, and overall active service providers.
+
+## Expected output:
+    1. all button and sidebars are worked correctly.
+    2. navigate perfectly and securely.
+
+## Actual output:
+
+
+## Status:
+### MIGRATION DATABASE
+## TC03:
+## Features: UPLOAD PROFILE
+
+## Step:
+    1. This test checks if your first database update (Migration 1) successfully added a spot for profile pictures.
+    2. After added the migration go to mysql page see the user table.
+
+##  Expected output:
+    1. A brand-new column named profile_photo must be there.
+    2. It should be configured to accept empty text (NULL or empty strings). 
+    3. This is important because when a new user registers, they do not have a profile picture yet. The system must let them sign up without forcing them to upload a photo immediately.
+
+## Actual output:
+
+## Status:
+
+## TC04:
+
+## Features: The provider rating updates.
+
+
+## Steps:
+    1. I check my second database migration is successfully.
+    2. Adding the rating system for our service provider.
+    3. You open your database tool and look at the structure of the service_providers table.
+
+## Expected output:
+    1. A brand-new column named rating must be there. 
+    2. It must accept decimals (like 4.5 or 4.8 stars), not just whole numbers (like 4 or 5).
+    3. When you add a brand-new provider who has no reviews yet, their rating should automatically start at 0 or stay blank (NULL) instead of crashing the system.
+
+## Actual output:
+
+## Status:
 
 
 
