@@ -65,5 +65,5 @@
 ## Steps:
     1. go to dashboard.
     2. show side bars like manage provider, manage services, view all bookings
-    
+    3. Admin can manage the service provider and add extra service provider service details, manage the user bookings, view user details, and allocate the service provider for this user.
  
