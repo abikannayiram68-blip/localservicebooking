@@ -48,5 +48,22 @@
     4. login button clicked by user.
 
 ## Expected output
+    "invalid password or email" show this command our system
 
+
+## Actuall output:
+
+
+## status:
+
+
+
+## TC04 :
+#### Service Management
+### Features: Admin usage
+
+## Steps:
+    1. go to dashboard.
+    2. show side bars like manage provider, manage services, view all bookings
+    
  
