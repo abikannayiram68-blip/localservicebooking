@@ -1,4 +1,5 @@
-ServiceBook — Local Home Service Booking App
+SERVICE BOOKING
+LOCAL SERVICE BOOKING FROM YOUR HOME
 
 A simple full-stack web app where users can book home services like:
 
@@ -7,15 +8,24 @@ Plumber
 Cleaner
 AC Repair
 Carpenter
+
+
+
 Technologies Used
 Backend
 Node.js
 Express.js
 MySQL
+
+
+
+
 Frontend
 React.js
 Axios
 React Router v6
+
+
 Authentication
 JWT
 bcryptjs
