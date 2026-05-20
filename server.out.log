@@ -1,0 +1,5 @@
+MySQL connected successfully
+
+ServiceBook API running on http://localhost:5000
+Health check: http://localhost:5000/api/health
+
